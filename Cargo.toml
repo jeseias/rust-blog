@@ -2,7 +2,7 @@
 members = [
   "api",
   "domain",
-  "applicaiton",
+  "app",
   "infra",
   "shared",
 ]

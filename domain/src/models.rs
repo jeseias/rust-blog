@@ -3,7 +3,6 @@ use diesel::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::cmp::{Ord, Eq, PartialOrd, PartialEq};
 
-// Queryable will generate the code needed to load the struct from an SQL statement
 #[derive(Queryable, Serialize, Ord, Eq, PartialEq, PartialOrd)]
 pub struct Post {
   pub id: i32,

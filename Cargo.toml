@@ -6,3 +6,4 @@ members = [
   "infra",
   "shared",
 ]
+resolver = "1"
